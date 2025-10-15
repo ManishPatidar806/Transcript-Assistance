@@ -1,0 +1,10 @@
+langchain
+langchain_google_genai
+dotenv
+youtube_transcript_api
+langchain_core
+langchain_community
+grandalf
+fastapi[standard]
+langchain_chroma
+

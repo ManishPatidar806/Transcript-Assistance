@@ -1,0 +1,124 @@
+# -----------------------------
+# Root-level ignores (common)
+# -----------------------------
+
+# Environment / secrets
+.env
+*.env
+.env.*
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE / editor configs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+*.log
+*.tmp
+*~
+*.bak
+
+# OS / misc
+*.swp
+*.lock
+*.pid
+*.seed
+*.out
+*.err
+*.trace
+
+# Docker / container files
+docker-compose.override.yml
+docker-compose.dev.yml
+*.tar
+
+
+# -----------------------------
+# FRONTEND (React)
+# -----------------------------
+frontend/node_modules/
+frontend/build/
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+frontend/coverage/
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/.DS_*
+frontend/**/.backup.*
+frontend/**/.back.*
+frontend/*.sublime*
+frontend/psd
+frontend/thumb
+frontend/sketch
+
+
+# -----------------------------
+# BACKEND (FastAPI / Python)
+# -----------------------------
+backend/__pycache__/
+backend/*.py[cod]
+backend/*$py.class
+
+# Virtual environments
+backend/.env/
+backend/.venv/
+backend/env/
+backend/venv/
+backend/ENV/
+backend/env.bak/
+backend/venv.bak/
+
+# Distribution / packaging
+backend/build/
+backend/develop-eggs/
+backend/dist/
+backend/downloads/
+backend/eggs/
+backend/.eggs/
+backend/lib/
+backend/lib64/
+backend/parts/
+backend/sdist/
+backend/var/
+backend/wheels/
+backend/pip-wheel-metadata/
+backend/share/python-wheels/
+backend/*.egg-info/
+backend/.installed.cfg
+backend/*.egg
+
+# Logs and databases
+backend/*.db
+backend/*.sqlite3
+
+# Unit test / coverage reports
+backend/htmlcov/
+backend/.tox/
+backend/.nox/
+backend/.coverage
+backend/.coverage.*
+backend/.cache
+backend/nosetests.xml
+backend/coverage.xml
+backend/*.cover
+backend/*.py,cover
+backend/.hypothesis/
+backend/.pytest_cache/
+
+# mypy / type checking
+backend/.mypy_cache/
+backend/.dmypy.json
+backend/dmypy.json
+backend/.pyre/
+
+# FastAPI PID / reload artifacts
+backend/*.pid
