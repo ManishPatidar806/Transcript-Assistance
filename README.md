@@ -45,7 +45,7 @@ An AI-powered web application that transforms YouTube videos into interactive le
 
 ### 1. Clone the Repository
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/ManishPatidar806/Transcript-Assistance.git
 cd TranscriptApplication
 ```
 
